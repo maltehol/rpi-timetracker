@@ -27,7 +27,7 @@ class SimpleWriter:
         line = ''
         if task.isStopped:
             line += 'OUT,'
-        else
+        else:
             line +='IN,'
 
         line += f'{task.name},{task.timer.timestamps[-1]}\n'
